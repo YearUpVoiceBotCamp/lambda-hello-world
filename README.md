@@ -1,1 +1,1 @@
-#Coca Cola Echo Project - Maddie's Repo
+Coca Cola Echo Project - Maddie's Repo
