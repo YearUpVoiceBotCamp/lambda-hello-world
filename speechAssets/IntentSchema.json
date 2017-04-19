@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "intent": "ArtistName",
+      "slots": [
+        {
+          "name": "artist",
+          "type": "AMAZON.Artist"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}

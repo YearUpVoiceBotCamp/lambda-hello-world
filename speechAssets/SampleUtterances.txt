@@ -1,0 +1,3 @@
+ArtistName find {artist}
+ArtistName do you know {artist}
+ArtistName {artist}
