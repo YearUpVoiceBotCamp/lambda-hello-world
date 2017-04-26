@@ -44,7 +44,7 @@ Here is where we will finish configuring the settings for your function.  These 
 Review your configurations and if it looks good, select "Create Function".
 
 
-##Configure Test Event
+## Configure Test Event
 
 Once we go back into our function, click on "Configure Test Event" under "Actions".  This is where we can create test cases and execute them on our function.  Since a test acts as a trigger, we will go ahead and start with the "Alexa Start Session" sample event template.  Inside of the test dialog, AWS will show you what our event code looks like.  You can make changes here and see how your function responds to different conditions.  
 
