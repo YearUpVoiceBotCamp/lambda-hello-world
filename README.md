@@ -44,7 +44,7 @@ Here is where we will finish configuring the settings for your function.  These 
 Review your configurations and if it looks good, select "Create Function".
 
 
-##Configure Test Event
+## Configure Test Event
 
 Once we go back into our function, click on "Configure Test Event" under "Actions".  This is where we can create test cases and execute them on our function.  Since a test acts as a trigger, we will go ahead and start with the "Alexa Start Session" sample event template.  Inside of the test dialog, AWS will show you what our event code looks like.  You can make changes here and see how your function responds to different conditions.  
 
@@ -53,4 +53,13 @@ For the Start Session, we will need to replace all of the "[unique-value-here]" 
 One strategy is to use the Alexa Developer Portal to form the test event body and then use this request body inside of the Lambda test event to get actual feedback on your function.
 
 
+## CloudWatch
+
+When you begin testing and using your lambda function, you can begin to use CloudWatch as a logging resource.  Earlier, we assigned our lambda to a role that attached a logging policy to it.  This logging policy is what enables the CloudWatch monitoring.  To explore the CloudWatch capabilities, go to 'CloudWatch' > 'Logs' > 'Name of Your Lambda'.  Here are some of the monitoring and logging capabilities you get with CloudWatch:
+
+	- Messaging with logging for each execution of the lambda function
+	- Monitoring with Invocation count
+	- Invocation duration
+	- Invocation errors
+	- Throttled Invocations
 
