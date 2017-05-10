@@ -2,7 +2,10 @@
 
 ## Lambda Setup
 
-Navigate to the Lambda service through the AWS portal.  We are going to configure our function and test event here and then upload our code later.  Start by clicking "Create a Lambda Function".  Under blueprints, select "Blank Function".  The Blueprints give you starter templates for different projects.  We will be constructing our Alexa skill independent of these templates.
+Navigate to the Lambda service through the AWS portal.  Click the region drop-down in the upper-right corner of the console and select either US East (N. Virginia) or EU (Ireland).
+Lambda functions for Alexa skills must be hosted in either the US East (N. Virginia) or EU (Ireland) region.
+
+We are going to configure our function and test event here and then upload our code later.  Start by clicking "Create a Lambda Function".  Under blueprints, select "Blank Function".  The Blueprints give you starter templates for different projects.  We will be constructing our Alexa skill independent of these templates.
 
 ## Configure Triggers
 
@@ -62,4 +65,5 @@ When you begin testing and using your lambda function, you can begin to use Clou
 	- Invocation duration
 	- Invocation errors
 	- Throttled Invocations
+
 

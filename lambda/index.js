@@ -10,12 +10,12 @@ exports.handler = function(event, context, callback){
 var handlers = {
 
   'LaunchRequest': function () {
-    this.emit('Hello world!  Say the name of an artist.', 'Try saying the name of an artist');
+    this.emit(':ask','Hello world!  Say the name of an artist.', 'Try saying the name of an artist');
   },
 
   'ArtistName': function() {
     var artistName = this.event.request.intent.slots.artist.value;
-    this.emit('You said ' + artistName);
+    this.emit(':ask','You said ' + artistName);
   },
 
   'AMAZON.StopIntent': function () {
