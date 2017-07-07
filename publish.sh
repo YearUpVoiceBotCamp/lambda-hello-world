@@ -3,4 +3,4 @@ cd lambda
 npm install
 zip -r ../lambda.zip *
 cd ..
-aws lambda update-function-code --function-name helloWorld --zip-file fileb://lambda.zip 
+aws lambda update-function-code --function-name hello_world --zip-file fileb://lambda.zip 
