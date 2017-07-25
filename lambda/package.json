@@ -4,12 +4,17 @@
   "description": "hello world alexa project",
   "main": "index.js",
   "dependencies": {
-    "alexa-sdk": "^1.0.8"
+    "alexa-sdk": "^1.0.8",
+    "aws-sdk": "^2.89.0",
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2",
+    "request": "^2.81.0",
+    "serverless": "^1.17.0"
   },
   "devDependencies": {
     "alexa-sdk": "^1.0.6"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
   }
 }

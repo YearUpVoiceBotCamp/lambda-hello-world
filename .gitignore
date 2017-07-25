@@ -1,3 +1,6 @@
-.vs
-*/node_modules
-*.zip
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
